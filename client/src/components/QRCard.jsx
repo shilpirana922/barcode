@@ -1,7 +1,7 @@
 import { QRCodeCanvas } from "qrcode.react";
 
 function QRCard({ qrId }) {
- const qrUrl = `https://personal-details-barcode.netlify.app/${qrId}`;
+ const qrUrl = `https://personal-details-barcode.netlify.app/scan/${qrId}`;
 
   return (
     <div
